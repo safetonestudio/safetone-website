@@ -13,7 +13,7 @@ export const translations = {
     global: {
       brand: 'SafeTone Studio',
       tagline: 'Localisation · Audio · GDPR',
-      email: 'SafeToneStudio@proton.me',
+      email: 'contact@safetonestudio.com',
       site: 'safetonestudio.com',
       siret: '103 340 857 00012',
       cta_quote: 'Get a Quote',
@@ -434,7 +434,7 @@ export const translations = {
       hero: {
         eyebrow: 'Contact',
         title: 'Let\'s talk about your project.',
-        subtitle: 'Download the Project Brief, fill it in, and send it directly to SafeToneStudio@proton.me. No form. No intermediary. Just your brief and a quote within 24 hours.',
+        subtitle: 'Download the Project Brief, fill it in, and send it directly to contact@safetonestudio.com. No form. No intermediary. Just your brief and a quote within 24 hours.',
       },
       form: {
         first_name: 'First Name *',
@@ -555,7 +555,7 @@ export const translations = {
       sections: [
         {
           title: '1. Who We Are',
-          text: 'SafeTone Studio is a sole trader registered in France. Contact: SafeToneStudio@proton.me — safetonestudio.com',
+          text: 'SafeTone Studio is a sole trader registered in France. Contact: contact@safetonestudio.com — safetonestudio.com',
         },
         {
           title: '2. Data We Collect',
@@ -575,7 +575,7 @@ export const translations = {
         },
         {
           title: '6. Your Rights',
-          text: 'Under GDPR, you have the right to access, rectify, erase, restrict, and port your personal data, and to object to processing. To exercise any of these rights: SafeToneStudio@proton.me. We respond to all requests within 30 days. You also have the right to lodge a complaint with your national supervisory authority.',
+          text: 'Under GDPR, you have the right to access, rectify, erase, restrict, and port your personal data, and to object to processing. To exercise any of these rights: contact@safetonestudio.com. We respond to all requests within 30 days. You also have the right to lodge a complaint with your national supervisory authority.',
         },
         {
           title: '7. Security',
@@ -627,7 +627,7 @@ export const translations = {
     global: {
       brand: 'SafeTone Studio',
       tagline: 'Localisation · Audio · RGPD',
-      email: 'SafeToneStudio@proton.me',
+      email: 'contact@safetonestudio.com',
       site: 'safetonestudio.com',
       siret: '103 340 857 00012',
       cta_quote: 'Obtenir un devis',
@@ -1033,7 +1033,7 @@ export const translations = {
       hero: {
         eyebrow: 'Contact',
         title: 'Parlons de votre projet.',
-        subtitle: 'Téléchargez le Brief Projet, complétez-le et envoyez-le directement à SafeToneStudio@proton.me. Pas de formulaire. Pas d\'intermédiaire. Juste votre brief et un devis sous 24 heures.',
+        subtitle: 'Téléchargez le Brief Projet, complétez-le et envoyez-le directement à contact@safetonestudio.com. Pas de formulaire. Pas d\'intermédiaire. Juste votre brief et un devis sous 24 heures.',
       },
       form: {
         first_name: 'Prénom *',
@@ -1148,7 +1148,7 @@ export const translations = {
       sections: [
         {
           title: '1. Qui nous sommes',
-          text: 'SafeTone Studio est une entreprise enregistrée en France. Contact : SafeToneStudio@proton.me — safetonestudio.com',
+          text: 'SafeTone Studio est une entreprise enregistrée en France. Contact : contact@safetonestudio.com — safetonestudio.com',
         },
         {
           title: '2. Données collectées',
@@ -1168,7 +1168,7 @@ export const translations = {
         },
         {
           title: '6. Vos droits',
-          text: 'Conformément au RGPD, vous disposez des droits d\'accès, de rectification, d\'effacement, de limitation du traitement, de portabilité et d\'opposition. Pour exercer l\'un de ces droits : SafeToneStudio@proton.me. Nous répondons à toute demande dans un délai de 30 jours. Vous disposez également du droit d\'introduire une réclamation auprès de la CNIL (www.cnil.fr).',
+          text: 'Conformément au RGPD, vous disposez des droits d\'accès, de rectification, d\'effacement, de limitation du traitement, de portabilité et d\'opposition. Pour exercer l\'un de ces droits : contact@safetonestudio.com. Nous répondons à toute demande dans un délai de 30 jours. Vous disposez également du droit d\'introduire une réclamation auprès de la CNIL (www.cnil.fr).',
         },
         {
           title: '7. Sécurité',
@@ -1186,7 +1186,7 @@ export const translations = {
       sections: [
         {
           title: 'Éditeur du site',
-          text: 'SafeTone Studio\nSIRET : 103 340 857 00012\nLéognan (33850), Bordeaux, France\nSafeToneStudio@proton.me\nsafetonestudio.com\nTVA non applicable — art. 293 B CGI',
+          text: 'SafeTone Studio\nSIRET : 103 340 857 00012\nLéognan (33850), Bordeaux, France\ncontact@safetonestudio.com\nsafetonestudio.com\nTVA non applicable — art. 293 B CGI',
         },
         {
           title: 'Hébergement',

@@ -69,8 +69,8 @@ export default function HowWeWork() {
           <h2 className="cta-title">{lang === 'fr' ? 'Prêt à démarrer ?' : 'Ready to get started?'}</h2>
           <p className="cta-sub">
             {lang === 'fr'
-              ? 'Téléchargez le Brief Projet, complétez-le et envoyez-le à SafeToneStudio@proton.me.'
-              : 'Download the Project Brief, fill it in, and send it to SafeToneStudio@proton.me.'}
+              ? 'Téléchargez le Brief Projet, complétez-le et envoyez-le à contact@safetonestudio.com.'
+              : 'Download the Project Brief, fill it in, and send it to contact@safetonestudio.com.'}
           </p>
           <div className="btn-group" style={{ justifyContent: 'center' }}>
             <Link to="/contact" className="btn btn-primary">{g.cta_quote}</Link>
