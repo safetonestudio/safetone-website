@@ -1,5 +1,17 @@
 import { useLang } from '../context/LangContext'
 import { translations } from '../translations'
+import SEO from '../components/SEO'
+
+const seo = {
+  en: {
+    title: 'Contact — SafeTone Studio',
+    desc: 'Download the Project Brief and send it to contact@safetonestudio.com. Quote within 24 hours. No form, no sales call, no commitment required.',
+  },
+  fr: {
+    title: 'Contact — SafeTone Studio',
+    desc: 'Téléchargez le Brief Projet et envoyez-le à contact@safetonestudio.com. Devis sous 24 heures. Pas de formulaire, pas d\'appel commercial, sans engagement.',
+  },
+}
 
 export default function Contact() {
   const { lang } = useLang()
@@ -12,6 +24,7 @@ export default function Contact() {
 
   return (
     <>
+      <SEO title={seo[lang].title} description={seo[lang].desc} path="/contact" />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">{c.hero.eyebrow}</span>

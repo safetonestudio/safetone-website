@@ -1,6 +1,18 @@
 import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import { translations } from '../translations'
+import SEO from '../components/SEO'
+
+const seo = {
+  en: {
+    title: 'Pricing — SafeTone Studio',
+    desc: 'Transparent FR↔EN localization pricing. Professional €210/min · Premium €275/min. Everything included: translation, dubbing, lip sync, voice cloning & audio.',
+  },
+  fr: {
+    title: 'Tarifs — SafeTone Studio',
+    desc: 'Tarifs clairs pour la localisation FR↔EN. Professionnel 210 €/min · Premium 275 €/min. Tout inclus : traduction, doublage, lip sync, clonage vocal et audio.',
+  },
+}
 
 export default function Pricing() {
   const { lang } = useLang()
@@ -13,6 +25,7 @@ export default function Pricing() {
 
   return (
     <>
+      <SEO title={seo[lang].title} description={seo[lang].desc} path="/pricing" />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">{p.hero.eyebrow}</span>

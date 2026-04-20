@@ -1,5 +1,6 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { useLang } from './context/LangContext'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
@@ -17,9 +18,16 @@ function ScrollToTop() {
   return null
 }
 
+function LangSync() {
+  const { lang } = useLang()
+  useEffect(() => { document.documentElement.lang = lang }, [lang])
+  return null
+}
+
 export default function App() {
   return (
     <>
+      <LangSync />
       <ScrollToTop />
       <Header />
       <main className="page">

@@ -1,5 +1,17 @@
 import { useLang } from '../context/LangContext'
 import { translations } from '../translations'
+import SEO from '../components/SEO'
+
+const seo = {
+  en: {
+    title: 'Privacy Policy — SafeTone Studio',
+    desc: 'How SafeTone Studio collects, processes, and protects your data in accordance with GDPR. No advertising cookies, no third-party tracking. Updated April 2026.',
+  },
+  fr: {
+    title: 'Politique de Confidentialité — SafeTone Studio',
+    desc: 'Comment SafeTone Studio collecte, traite et protège vos données conformément au RGPD. Aucun cookie publicitaire, aucun tracking tiers. Mise à jour avril 2026.',
+  },
+}
 
 export default function Privacy() {
   const { lang } = useLang()
@@ -8,6 +20,7 @@ export default function Privacy() {
 
   return (
     <>
+      <SEO title={seo[lang].title} description={seo[lang].desc} path="/privacy" />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">{p.hero.eyebrow}</span>

@@ -1,6 +1,18 @@
 import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import { translations } from '../translations'
+import SEO from '../components/SEO'
+
+const seo = {
+  en: {
+    title: 'Services — SafeTone Studio',
+    desc: 'Translation, dubbing, lip sync, voice cloning, professional audio & secure delivery. Every service your video needs to cross the FR↔EN language barrier.',
+  },
+  fr: {
+    title: 'Services — SafeTone Studio',
+    desc: 'Traduction, doublage, lip sync, clonage vocal, audio professionnel et livraison sécurisée. Tout ce dont votre vidéo a besoin pour franchir la barrière de la langue.',
+  },
+}
 
 export default function Services() {
   const { lang } = useLang()
@@ -10,6 +22,7 @@ export default function Services() {
 
   return (
     <>
+      <SEO title={seo[lang].title} description={seo[lang].desc} path="/services" />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">{s.hero.eyebrow}</span>

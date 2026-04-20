@@ -1,6 +1,18 @@
 import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import { translations } from '../translations'
+import SEO from '../components/SEO'
+
+const seo = {
+  en: {
+    title: 'GDPR & Security — SafeTone Studio',
+    desc: 'Sovereign encrypted storage, outside US jurisdiction, GDPR-compliant processing, permanent deletion within 30 days. Data protection built into every project.',
+  },
+  fr: {
+    title: 'RGPD & Sécurité — SafeTone Studio',
+    desc: 'Stockage chiffré souverain, hors juridiction américaine, traitement conforme RGPD, suppression définitive sous 30 jours. Protection des données sur chaque projet.',
+  },
+}
 
 export default function GDPR() {
   const { lang } = useLang()
@@ -10,6 +22,7 @@ export default function GDPR() {
 
   return (
     <>
+      <SEO title={seo[lang].title} description={seo[lang].desc} path="/gdpr" />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">{d.hero.eyebrow}</span>

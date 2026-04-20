@@ -1,6 +1,18 @@
 import { Link } from 'react-router-dom'
 import { useLang } from '../context/LangContext'
 import { translations } from '../translations'
+import SEO from '../components/SEO'
+
+const seo = {
+  en: {
+    title: 'How It Works — SafeTone Studio',
+    desc: 'Five steps: brief & deposit, translation, your approval, dubbing & production, secure delivery. One studio, no handoffs, no surprises. See the full pipeline.',
+  },
+  fr: {
+    title: 'Notre Process — SafeTone Studio',
+    desc: 'Cinq étapes : brief & acompte, traduction, votre validation, doublage & production, livraison sécurisée. Un studio, aucun transfert, aucune surprise.',
+  },
+}
 
 export default function HowWeWork() {
   const { lang } = useLang()
@@ -10,6 +22,7 @@ export default function HowWeWork() {
 
   return (
     <>
+      <SEO title={seo[lang].title} description={seo[lang].desc} path="/how-it-works" />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">{p.hero.eyebrow}</span>
